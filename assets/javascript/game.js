@@ -1,6 +1,16 @@
-// Goals:
-// 1. Display all of the letters of the alphabet.
-// 2. When a letter is picked if it matches the 
+// 1. Display all letters of the alphabet.
+// 2. Make letters clickable so that you can select them to build the mystery word.
+// 3. Have an array of mystery words that will be generated randomly.
+// 4. Display dashes that span the length of the mystery word. 
+// 5. Make it so that the dashes will disappear when a letter in the word is guessed.
+// 6. Lose a life if the incorrect letter is guessed. 
+// 7. Reset the game if the correct word is guessed or the user runs out of guesses. 
+
+
+
+
+
+
 $(document).ready(function() {
 
 // Letters to be selected as guesses.
@@ -17,8 +27,8 @@ $(document).ready(function() {
     }
 
 
-// Random Words Array.
-  var words 
+// Mystery Words Array.
+  var words = []
 
 
   // create alphabet ul
